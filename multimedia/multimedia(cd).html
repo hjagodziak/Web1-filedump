@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<canvas id="kanwa" width="200" height="120" style="border: 1px solid black;"></canvas>
+<script>
+var x=document.getElementById("kanwa");
+var xtx=x.getContext('2d');
+xtx.moveTo(0, 0);
+xtx.lineTo(200, 120);
+xtx.strokeStyle="blue";
+xtx.stroke();
+
+var k=document.getElementById("kanwa");
+var kxt=k.getContext('2d');
+kxt.fillStyle="green";
+kxt.fillRect(50, 50, 50, 50);
+kxt.strokeStyle="black";
+kxt.strokeRect(40, 40, 70, 70);
+</script>
+<embed src="duck.mp3" width="170" height="70">
+</body>
+</html>
