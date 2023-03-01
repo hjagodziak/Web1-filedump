@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<form action="mailto:nauka@gmail.com" method="post">
+<button type="submit" name="przycisk" style="font: 12pt Arial; backround: red">Przycisk</button>
+<button type="submit" name="obrazek">
+	<img src="projekt3/londyn.jpg" alt="big ben" width="250" height="250">
+</button>
+<fieldset>
+<legend><h4>Wykrztałcenie:</h4></legend>
+<label><input type="radio" value="Postawowe" name="grupa_opcji" checked>Podstawowe</label><br>
+<label><input type="radio" value="Średnie" name="grupa_opcji" checked>Średnie</label><br>
+<label><input type="radio" value="Wyższe" name="grupa_opcji" checked>Wyższe</label><br>
+</fieldset>
+<hr>
+<select name="jezyki" size="5" multiple>
+<optgroup label="Języki germańskie">
+<option>Język angielski</option>
+<option value="Język niemiecki" selected="selected">Język niemiecki</option>
+</optgroup>
+<optgroup label="Języki romańskie">
+<option value="Język francuski">Język francuski</option>
+<option value="Język włoski" selected="selected">Język włoski</option>
+<option value="Język hiszpański">Język hiszpański</option>
+</optgroup>
+</select>
+</form>
+</body>
+</html>

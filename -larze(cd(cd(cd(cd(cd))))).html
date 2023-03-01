@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<form action="mailto:nauka@gmail.com" method="post">
+<input list="wyksztalcenie" name="wyksz">
+<datalist id="wyksztalcenie">
+<option value="Podstawowe"></option>
+<option value="Średnie"></option>
+<option value="Wyższe"></option>
+</datalist>
+<input type="submit" value="Wyślij">
+<hr>
+<input name="adres" type="text" autofocus>
+<input type="text" autocomplete="off">
+<input type="text" required>
+<input type="text" name="kod" pattern="[0-9]{2}-[0-9]{3}">
+</form>
+</body>
+</html>

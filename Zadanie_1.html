@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>Formularz rejestracyjny:</h1>
+<form action="mailto:nauka@gmail.com" method="post">
+<p>Podaj imię: <input type="text"></p>
+<p>Podaj nazwisko: <input type="text"></p>
+<p>PESEL: <input type="text" maxlength="11" size="11"></p>
+<p>Kod pocztowy: <input type="text" pattern="[0-9]{2}" maxlength="2" size="2"> - <input type="text" maxlength="3" size="3"></p>
+<p>Płeć:<br>
+<select name="Płeć" size="2">
+<option>Mężczyzna</option>
+<option>Kobieta</option>
+</select>
+</p>
+<p>Wojewódzctwo:<br>
+<select name="Wojewódzctwo" size="4">
+<option>Zachodnio-Pomorskie</option>
+<option>Pomorskie</option>
+<option>Warmińsko-Mazurskie</option>
+<option>Podlaskie</option>
+<option>Lubuskie</option>
+<option>Wielkopolskie</option>
+<option>Kujawsko-Pomorskie</option>
+<option>Mazowieckie</option>
+<option>Dolnośląskie</option>
+<option>Łódzkie</option>
+<option>Lubelskie</option>
+<option>Opolskie</option>
+<option>Śląskie</option>
+<option>Świętokrzyskie</option>
+<option>Małopolskie</option>
+<option>Podkarpackie</option>
+</select>
+</p>
+<p>Zainteresowania:<br>
+<select name="Zainteresowania" size="4" multiple>
+<option>Gry Komputerowe</option>
+<option>Sport</option>
+<option>Rysowanie</option>
+<option>Zwierzęta</option>
+<option>Książki</option>
+<option>Filmy</option>
+<option>Taniec</option>
+<option>Modelarstwo</option>
+</select>
+</p>
+<p><input type="submit" value="Wyślij"><input type="reset" value="Wyczyść"></p>
+</form>
+</body>
+</html>
